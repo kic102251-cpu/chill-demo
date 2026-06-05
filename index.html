@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CHILL | 海の見える美容室</title>
+  <meta name="description" content="三重県御浜町下市木の海の見える美容室 CHILL。髪質改善トリートメント・髪質改善カラーに対応した営業用デモサイトです。">
+  <meta property="og:title" content="CHILL | 海の見える美容室">
+  <meta property="og:description" content="御浜町下市木で、髪質に合わせた提案を大切にする美容室 CHILL の営業用デモサイトです。">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f6f3ea">
+  <link rel="preconnect" href="https://cdn.tailwindcss.com">
+  <link rel="preconnect" href="https://images.pexels.com">
+  <link rel="preconnect" href="https://www.pakutaso.com">
+  <link rel="preload" as="image" href="https://images.pexels.com/photos/9774938/pexels-photo-9774938.jpeg?auto=compress&cs=tinysrgb&w=1600">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    section[id] {
+      scroll-margin-top: 5rem;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "YuGothic", "Meiryo", sans-serif;
+      letter-spacing: 0;
+      padding-bottom: 78px;
+    }
+
+    @media (min-width: 768px) {
+      body {
+        padding-bottom: 0;
+      }
+    }
+
+    .hero-image {
+      background-image:
+        linear-gradient(90deg, rgba(23, 43, 45, .76) 0%, rgba(23, 43, 45, .52) 44%, rgba(23, 43, 45, .1) 100%),
+        url("https://images.pexels.com/photos/9774938/pexels-photo-9774938.jpeg?auto=compress&cs=tinysrgb&w=1600");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .sea-line {
+      background:
+        radial-gradient(circle at 10% 20%, rgba(79, 143, 152, .22), transparent 26%),
+        linear-gradient(135deg, rgba(237, 246, 244, .94), rgba(247, 244, 236, .98));
+    }
+
+    .section-label {
+      letter-spacing: .08em;
+    }
+
+    .hero-copy {
+      overflow-wrap: anywhere;
+      line-break: strict;
+    }
+
+    .shadow-soft {
+      box-shadow: 0 18px 48px rgba(31, 54, 57, .12);
+    }
+  </style>
+</head>
+<body class="bg-stone-50 text-slate-800 antialiased">
+  <header class="fixed inset-x-0 top-0 z-50 border-b border-white/50 bg-stone-50/90 backdrop-blur">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
+      <a href="#top" class="flex items-center gap-3" aria-label="CHILL トップへ">
+        <span class="flex h-10 w-10 items-center justify-center rounded-full bg-teal-800 text-sm font-semibold text-white">C</span>
+        <span class="leading-tight">
+          <span class="block text-lg font-semibold tracking-wide">CHILL</span>
+          <span class="block text-[11px] text-slate-600">御浜町下市木・海の見える美容室</span>
+        </span>
+      </a>
+      <nav class="hidden items-center gap-6 text-sm text-slate-600 md:flex" aria-label="ページ内ナビゲーション">
+        <a href="#about" class="hover:text-teal-800">CHILLについて</a>
+        <a href="#care" class="hover:text-teal-800">こだわり</a>
+        <a href="#access" class="hover:text-teal-800">アクセス</a>
+      </nav>
+      <a href="https://www.instagram.com/chill.hair2025/" target="_blank" rel="noopener" class="hidden rounded-full bg-slate-800 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-teal-800 md:inline-flex">
+        Instagramを見る
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero-image relative min-h-[92svh] overflow-hidden pt-24 text-white">
+      <div class="mx-auto flex min-h-[calc(92svh-6rem)] max-w-6xl items-end px-4 pb-8 sm:px-6 md:items-center md:pb-0">
+        <div class="max-w-4xl">
+          <p class="mb-4 inline-flex rounded-full border border-white/35 bg-white/14 px-3 py-1 text-xs font-medium backdrop-blur">
+            営業用デモサイト
+          </p>
+          <p class="section-label mb-4 text-xs font-semibold uppercase text-white/76">Mihama Shimoichigi Hair Salon</p>
+          <h1 class="max-w-4xl text-[clamp(1.78rem,8vw,4.8rem)] font-semibold leading-[1.14] sm:text-[clamp(2.7rem,7vw,4.8rem)]">
+            <span class="block">海の見える美容室で、</span>
+            <span class="block">あなたらしい髪へ。</span>
+          </h1>
+          <p class="hero-copy mt-5 max-w-[20.5rem] text-sm leading-7 text-white/88 sm:max-w-xl sm:text-lg sm:leading-8">
+            CHILLは、御浜町下市木にある海の見える美容室。髪質改善トリートメント・カラーに対応し、一人ひとりの髪の状態に合わせた提案を大切にしています。
+          </p>
+          <div class="mt-7 flex flex-col gap-3 sm:flex-row">
+            <a href="https://www.instagram.com/chill.hair2025/" target="_blank" rel="noopener" class="inline-flex min-h-12 items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-slate-800 shadow-soft transition hover:bg-teal-50">
+              Instagramを見る
+            </a>
+            <a href="#first" class="inline-flex min-h-12 items-center justify-center rounded-full border border-white/45 px-6 text-sm font-semibold text-white transition hover:bg-white/12">
+              初めての方へ
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white">
+      <div class="mx-auto grid max-w-6xl grid-cols-2 gap-px border-x border-slate-200 bg-slate-200 md:grid-cols-4">
+        <div class="bg-white px-4 py-5 sm:p-6">
+          <p class="text-xs text-slate-500">Open</p>
+          <p class="mt-1 text-lg font-semibold">2025年3月</p>
+        </div>
+        <div class="bg-white px-4 py-5 sm:p-6">
+          <p class="text-xs text-slate-500">Location</p>
+          <p class="mt-1 text-lg font-semibold">御浜町下市木</p>
+        </div>
+        <div class="bg-white px-4 py-5 sm:p-6">
+          <p class="text-xs text-slate-500">Care</p>
+          <p class="mt-1 text-lg font-semibold">髪質改善</p>
+        </div>
+        <div class="bg-white px-4 py-5 sm:p-6">
+          <p class="text-xs text-slate-500">Access</p>
+          <p class="mt-1 text-lg font-semibold">バリアフリー配慮</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-16 sm:py-24">
+      <div class="mx-auto grid max-w-6xl gap-10 px-4 sm:px-6 lg:grid-cols-[1.02fr_.98fr] lg:items-center">
+        <div>
+          <p class="section-label text-xs font-semibold text-teal-800">ABOUT CHILL</p>
+          <h2 class="mt-3 text-3xl font-semibold leading-tight sm:text-4xl">
+            地元で、気負わず通える。<br class="hidden sm:block">海のそばのプライベートサロン。
+          </h2>
+          <p class="mt-6 leading-8 text-slate-600">
+            CHILLという名前には「リラックスする」という意味があります。名古屋の美容室で経験を重ね、地元である御浜町に開いた、心落ち着くヘアサロンです。
+          </p>
+          <p class="mt-4 leading-8 text-slate-600">
+            海の見える場所で、髪の悩みを相談しながら、その人がもつ自然体の魅力を引き出す提案へ。高級すぎず、でもきちんと整っている。地域の方が長く通いやすい空気感を大切にしています。
+          </p>
+          <div class="mt-7 grid gap-3 sm:grid-cols-2">
+            <div class="rounded-lg border border-teal-100 bg-white p-4">
+              <p class="font-semibold">海の見える美容室</p>
+              <p class="mt-2 text-sm leading-6 text-slate-500">日常の延長で、少し気分を変えられる御浜町らしいロケーション。</p>
+            </div>
+            <div class="rounded-lg border border-teal-100 bg-white p-4">
+              <p class="font-semibold">地域密着型</p>
+              <p class="mt-2 text-sm leading-6 text-slate-500">初めての方も、長く通う方も、髪の状態を相談しやすい距離感。</p>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="https://www.pakutaso.com/shared/img/thumb/yuka522047_TP_V.jpg" alt="日本人女性が美容室で髪を整えてもらうイメージ" class="aspect-[4/5] w-full rounded-lg object-cover shadow-soft" loading="lazy">
+          <div class="absolute -bottom-6 left-4 right-4 rounded-lg bg-white/94 p-5 shadow-soft backdrop-blur sm:left-auto sm:right-6 sm:w-72">
+            <p class="text-sm font-semibold text-teal-800">For local guests</p>
+            <p class="mt-2 text-sm leading-6 text-slate-600">髪質改善、カラー、トリートメントの相談はInstagramから。最新情報もInstagramをご確認ください。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="care" class="sea-line py-16 sm:py-24">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6">
+        <div class="max-w-2xl">
+          <p class="section-label text-xs font-semibold text-teal-800">HAIR CARE</p>
+          <h2 class="mt-3 text-3xl font-semibold leading-tight sm:text-4xl">髪の状態に合わせて、無理なくきれいに。</h2>
+          <p class="mt-5 leading-8 text-slate-600">
+            CHILLが大切にしているのは、一人ひとりの髪質に合った提案。今の髪の状態を見ながら、カラーやトリートメントを選べる安心感があります。
+          </p>
+        </div>
+
+        <div class="mt-10 grid gap-4 md:grid-cols-3">
+          <article class="rounded-lg bg-white p-6 shadow-sm">
+            <p class="text-sm font-semibold text-teal-800">01</p>
+            <h3 class="mt-4 text-xl font-semibold">髪質改善トリートメント</h3>
+            <p class="mt-3 leading-7 text-slate-600">ツヤとやわらかさを大切にしたケア。広がりや手触りが気になる方も相談しやすいメニューです。</p>
+          </article>
+          <article class="rounded-lg bg-white p-6 shadow-sm">
+            <p class="text-sm font-semibold text-teal-800">02</p>
+            <h3 class="mt-4 text-xl font-semibold">髪質改善カラー</h3>
+            <p class="mt-3 leading-7 text-slate-600">髪への負担を抑えながら、自然体で似合う色へ。カラー後の質感まで見据えた提案です。</p>
+          </article>
+          <article class="rounded-lg bg-white p-6 shadow-sm">
+            <p class="text-sm font-semibold text-teal-800">03</p>
+            <h3 class="mt-4 text-xl font-semibold">地肌にやさしいケア</h3>
+            <p class="mt-3 leading-7 text-slate-600">髪だけでなく地肌にも配慮。年齢を重ねても通いやすい、無理のないヘアケアを大切にしています。</p>
+          </article>
+        </div>
+
+        <div class="mt-12 grid gap-5 md:grid-cols-[.95fr_1.05fr] md:items-stretch">
+          <img src="https://www.pakutaso.com/shared/img/thumb/YAT249A0846_TP_V.jpg" alt="美容室で髪をカットする手元のイメージ" class="h-full min-h-[320px] w-full rounded-lg object-cover shadow-soft" loading="lazy">
+          <div id="first" class="rounded-lg bg-slate-800 p-7 text-white sm:p-10">
+            <p class="section-label text-xs font-semibold text-white/62">FIRST VISIT</p>
+            <h2 class="mt-3 text-3xl font-semibold leading-tight">初めての方も、髪の悩みを話しやすく。</h2>
+            <p class="mt-5 leading-8 text-white/76">
+              初来店で不安なのは、髪の悩みをうまく伝えられるかどうか。CHILLは相談しやすい雰囲気を大切にし、髪の状態を見ながら、その人に合う形を一緒に考える美容室です。
+            </p>
+            <div class="mt-7 space-y-3 text-sm text-white/82">
+              <p class="rounded-lg border border-white/14 bg-white/7 p-4">髪質改善トリートメント・カラーの相談がしやすい</p>
+              <p class="rounded-lg border border-white/14 bg-white/7 p-4">初めてでも落ち着いて過ごせるプライベート感</p>
+              <p class="rounded-lg border border-white/14 bg-white/7 p-4">予約・最新情報はInstagramで確認</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="barrierfree" class="bg-white py-16 sm:py-24">
+      <div class="mx-auto grid max-w-6xl gap-10 px-4 sm:px-6 lg:grid-cols-[.98fr_1.02fr] lg:items-center">
+        <div class="order-2 lg:order-1">
+          <img src="https://www.pakutaso.com/shared/img/thumb/yuka522051_TP_V.jpg" alt="日本人女性が美容室で前髪を整えてもらうイメージ" class="aspect-[5/4] w-full rounded-lg object-cover shadow-soft" loading="lazy">
+        </div>
+        <div class="order-1 lg:order-2">
+          <p class="section-label text-xs font-semibold text-teal-800">EASY TO VISIT</p>
+          <h2 class="mt-3 text-3xl font-semibold leading-tight sm:text-4xl">段差のない店づくりで、家族みんなが通いやすく。</h2>
+          <p class="mt-6 leading-8 text-slate-600">
+            美容室に行くことを、年齢や身体の状態であきらめてほしくない。CHILLは段差のない店づくりや車椅子対応ドアなど、地域の方が安心して利用しやすい環境づくりにも配慮しています。
+          </p>
+          <div class="mt-8 grid gap-3">
+            <div class="flex gap-4 rounded-lg border border-slate-200 bg-stone-50 p-4">
+              <span class="mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-teal-700"></span>
+              <div>
+                <p class="font-semibold">車椅子でも利用しやすい入口</p>
+                <p class="mt-1 text-sm leading-6 text-slate-500">車椅子対応ドアの情報があり、ご高齢の方にも配慮したつくりです。</p>
+              </div>
+            </div>
+            <div class="flex gap-4 rounded-lg border border-slate-200 bg-stone-50 p-4">
+              <span class="mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-emerald-500"></span>
+              <div>
+                <p class="font-semibold">お子様からご高齢の方まで</p>
+                <p class="mt-1 text-sm leading-6 text-slate-500">地域に暮らす幅広い世代が、気軽に髪を整えに行ける美容室へ。</p>
+              </div>
+            </div>
+            <div class="flex gap-4 rounded-lg border border-slate-200 bg-stone-50 p-4">
+              <span class="mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-orange-400"></span>
+              <div>
+                <p class="font-semibold">海のそばで落ち着ける時間</p>
+                <p class="mt-1 text-sm leading-6 text-slate-500">特別すぎない、でも少し気分がほどける。御浜町らしい通いやすさです。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="access" class="py-16 sm:py-24">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6">
+        <div class="grid gap-5 lg:grid-cols-[1fr_1.05fr] lg:items-stretch">
+          <div class="rounded-lg bg-white p-7 shadow-sm sm:p-10">
+            <p class="section-label text-xs font-semibold text-teal-800">ACCESS</p>
+            <h2 class="mt-3 text-3xl font-semibold leading-tight">三重県御浜町下市木</h2>
+            <dl class="mt-8 space-y-5">
+              <div>
+                <dt class="text-sm font-semibold text-slate-500">所在地</dt>
+                <dd class="mt-1 text-lg font-semibold">三重県南牟婁郡御浜町下市木2593</dd>
+              </div>
+              <div>
+                <dt class="text-sm font-semibold text-slate-500">ご予約・お問い合わせ</dt>
+                <dd class="mt-1 text-lg font-semibold">Instagramをご確認ください</dd>
+              </div>
+              <div>
+                <dt class="text-sm font-semibold text-slate-500">最新情報</dt>
+                <dd class="mt-1 leading-7 text-slate-600">営業時間・予約状況・メニュー詳細は、Instagramの最新投稿をご確認ください。</dd>
+              </div>
+            </dl>
+            <a href="https://www.instagram.com/chill.hair2025/" target="_blank" rel="noopener" class="mt-8 inline-flex min-h-12 w-full items-center justify-center rounded-full bg-teal-800 px-6 text-sm font-semibold text-white transition hover:bg-slate-800 sm:w-auto">
+              Instagramで確認する
+            </a>
+          </div>
+          <div class="relative min-h-[360px] overflow-hidden rounded-lg bg-slate-800 text-white shadow-soft">
+            <img src="https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="海の見える美容室を連想する海辺のイメージ" class="absolute inset-0 h-full w-full object-cover opacity-58">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-7 sm:p-10">
+              <p class="text-sm font-semibold text-white/70">CHILL by the sea</p>
+              <p class="mt-3 max-w-lg text-2xl font-semibold leading-tight">髪を整える時間が、少しだけ気持ちまで軽くなる場所へ。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-teal-800 py-14 text-white sm:py-20">
+      <div class="mx-auto max-w-4xl px-4 text-center sm:px-6">
+        <p class="section-label text-xs font-semibold text-white/64">RESERVE</p>
+        <h2 class="mt-3 text-3xl font-semibold leading-tight sm:text-4xl">ご予約・お問い合わせはInstagramから。</h2>
+        <p class="mx-auto mt-5 max-w-2xl leading-8 text-white/76">
+          髪質改善トリートメント、髪質改善カラー、初めてのご相談など、最新の予約状況とあわせてInstagramでご確認ください。
+        </p>
+        <a href="https://www.instagram.com/chill.hair2025/" target="_blank" rel="noopener" class="mt-8 inline-flex min-h-12 items-center justify-center rounded-full bg-white px-7 text-sm font-semibold text-slate-800 transition hover:bg-teal-50">
+          @chill.hair2025 を見る
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-slate-800 px-4 py-8 text-white sm:px-6">
+    <div class="mx-auto flex max-w-6xl flex-col gap-4 text-sm text-white/62 md:flex-row md:items-center md:justify-between">
+      <div>
+        <p class="font-semibold text-white">CHILL</p>
+        <p class="mt-1">営業用デモサイト。最新情報はInstagramをご確認ください。</p>
+      </div>
+      <div class="flex flex-wrap gap-x-4 gap-y-2">
+        <a href="https://www.instagram.com/chill.hair2025/" target="_blank" rel="noopener" class="hover:text-white">Instagram</a>
+        <a href="https://www.pexels.com/" target="_blank" rel="noopener" class="hover:text-white">Photo: Pexels</a>
+        <a href="https://www.pakutaso.com/" target="_blank" rel="noopener" class="hover:text-white">Photo: ぱくたそ</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="fixed inset-x-0 bottom-0 z-50 border-t border-white/60 bg-stone-50/95 p-3 shadow-[0_-12px_35px_rgba(20,31,32,.16)] backdrop-blur md:hidden">
+    <a href="https://www.instagram.com/chill.hair2025/" target="_blank" rel="noopener" class="flex min-h-12 w-full items-center justify-center rounded-full bg-slate-800 px-5 text-sm font-semibold text-white">
+      Instagramで予約・お問い合わせ
+    </a>
+  </div>
+</body>
+</html>
